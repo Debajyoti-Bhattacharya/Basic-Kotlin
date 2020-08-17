@@ -1,0 +1,32 @@
+Input :
+val q : String = "ECE"
+var r : String? = null
+fun main () {
+    when (r){
+        null -> println("IT")
+        else -> println(r)
+
+    }
+    println(q)
+}
+
+Output:
+IT
+ECE
+
+Input:
+val q : String = "ECE"
+var r : String? = null
+fun main () {
+    r = "CSE"
+    when (r){
+        null -> println("IT")
+        else -> println(r)
+
+    }
+    println(q)
+}
+
+Output:
+CSE
+ECE
