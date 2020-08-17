@@ -1,0 +1,16 @@
+Input:
+
+fun main(){
+    val ECE = arrayOf("Signal System","VLSI","Computer Network","Embedded System Design")
+    val CSE = arrayOf("Data Structure","Design Algorithms","DBMS","Computer Network")
+    CSE.forEachIndexed { index, CSE->
+        println("$CSE index at $index")
+    }
+
+}
+
+Output:
+Data Structure index at 0
+Design Algorithms index at 1
+DBMS index at 2
+Computer Network index at 3
