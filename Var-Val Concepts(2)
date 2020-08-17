@@ -1,0 +1,16 @@
+Input :
+val Major : String = "ECE"
+var Minor : String? = "CSE"
+
+fun main(){
+    println("MINOR = "+Minor)
+    println("MAJOR = "+Major)
+    Minor = "IT"
+    println("MINOR = "+Minor)
+    println("MAJOR = "+Major)
+}
+Output:
+MINOR = CSE
+MAJOR = ECE
+MINOR = IT
+MAJOR = ECE
