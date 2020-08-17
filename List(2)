@@ -1,0 +1,22 @@
+Input :
+fun dept(trade:String, m: List<String>){
+    m. forEach{ m ->
+        println("$trade $m")
+    }
+}
+fun main(){
+    val  course = listOf("CSE", "ECE", "IT", "EIE")
+    val map = mapOf(1 to "CSE", 2 to "ECE", 3 to "IT", 4 to "EIE")
+    map.forEach { a, b -> println("$a -> $b") }
+    dept(trade = "Welcome to", m = course )
+}
+
+Output:
+1 -> CSE
+2 -> ECE
+3 -> IT
+4 -> EIE
+Welcome to CSE
+Welcome to ECE
+Welcome to IT
+Welcome to EIE
