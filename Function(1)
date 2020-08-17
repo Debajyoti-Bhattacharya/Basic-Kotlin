@@ -1,0 +1,16 @@
+Input :
+fun Major() : String {
+    return "ECE"
+}
+fun Minor1(): String = "CSE"
+fun Minor2() : String = "IT"
+fun main(){
+    println(Minor1())
+    println(Major())
+    println(Minor2())
+}
+
+Output:
+CSE
+ECE
+IT
