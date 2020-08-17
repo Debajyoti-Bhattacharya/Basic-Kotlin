@@ -1,0 +1,19 @@
+Input :
+un main() {
+    val dept = listOf("CSE", "ECE", "IT", "EIE")
+    dept.forEach { dept ->
+        println(dept)
+    }
+    val map = mapOf(1 to "CSE", 2 to "ECE", 3 to "IT", 4 to "EIE")
+    map.forEach { a, b -> println("$a -> $b") }
+}
+
+Output:
+CSE
+ECE
+IT
+EIE
+1 -> CSE
+2 -> ECE
+3 -> IT
+4 -> EIE
