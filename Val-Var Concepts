@@ -1,0 +1,13 @@
+Input:
+val major: String = " Electronics and Communication"
+var minor : String = " Computer Science"
+fun main() {
+    println("MAJOR="+major+" Engineering")
+    println("MINOR="+minor+" Engineering")
+    minor = " Information"
+    println("OR MINOR="+minor+" Technology")
+ }
+ Output:
+MAJOR= Electronics and Communication Engineering
+MINOR= Computer Science Engineering
+OR MINOR= Information Technology
