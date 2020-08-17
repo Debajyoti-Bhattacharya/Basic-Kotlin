@@ -1,0 +1,30 @@
+Input:
+val a1 : String = "ECE"
+var c1 : String? = null
+fun main () {
+    val c11 = when (c1) {
+        null-> println("IT")
+        else -> println(c1)
+    }
+    println(a1)
+}
+
+Output:
+IT
+ECE
+
+Input:
+val a1 : String = "ECE"
+var c1 : String? = null
+fun main () {
+    c1 = "CSE"
+    val c11 = when (c1) {
+        null-> println("IT")
+        else -> println(c1)
+    }
+    println(a1)
+}
+
+Output:
+CSE
+ECE
