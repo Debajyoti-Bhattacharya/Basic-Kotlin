@@ -1,0 +1,12 @@
+Input:
+fun main()
+{
+    println("CSE \nIT")
+    print("ECE")
+}
+
+Output :
+CSE 
+IT
+ECE
+
