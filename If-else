@@ -1,0 +1,24 @@
+Input :
+val m: String = "ECE"
+var n: String? = null
+fun main (){
+    println(m)
+    if (n != null)
+    {
+        println(n)
+    }
+    else
+    {
+        println("IT")
+    }
+    println(m)
+    n = "CSE"
+    println(n)
+
+}
+
+Output:
+ECE
+IT
+ECE
+CSE
