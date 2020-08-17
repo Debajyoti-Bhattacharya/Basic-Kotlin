@@ -1,0 +1,20 @@
+Input:
+
+fun major(add1:String,add2:String) {
+    val m = "Major in $add1 and $add2"
+    println(m)
+}
+fun minor (add3:String,add4:String ) = println("Minor in $add3 or $add4")
+
+fun main(){
+    major(add1 = "Electronics Engineering",add2 = "Communication Engineering")
+    major(add1 = "Communication Engineering",add2 = "Electronics Engineering")
+    minor(add3 = "Computer Science Engineering",add4 = "Information Technology")
+    minor(add3 = "Information Technology",add4 = "Computer Science Engineering")
+}
+
+Output:
+Major in Electronics Engineering and Communication Engineering
+Major in Communication Engineering and Electronics Engineering
+Minor in Computer Science Engineering or Information Technology
+Minor in Information Technology or Computer Science Engineering
